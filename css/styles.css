@@ -539,6 +539,7 @@
 
  .footer-form {
      display: flex;
+     gap: 24px;
 
  }
 
@@ -546,7 +547,7 @@
  .footer-form-input {
      width: 264px;
      height: 40px;
-     margin-right: 24px;
+     
      color: #FFFFFF;
      outline: transparent;
      background-color: transparent;
@@ -556,25 +557,26 @@
      border: 1px solid var(--white, #FFF);
      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
      font-size: 12px;
-     line-height: 2;
+     line-height: 1.5;
      letter-spacing: 0.04em;
      padding: 8px 16px;
  }
+ .footer-form-input::placeholder {
+    color: var(--white, #FFF);
+}
 
  .footer-form-input:focus {
      border-color: 1px solid #4D5AE5;
  }
 
- .footer-form-input::placeholder {
-     color: var(--white, #FFF);
- }
+
 
  .button-subscribe {
      display: inline-flex;
      padding: 8px 24px;
      justify-content: center;
      align-items: center;
-     width: auto;
+     max-width: 165px;
      height: auto;
  }
 
@@ -735,7 +737,7 @@
      font-weight: 400;
      line-height: 1.17;
      letter-spacing: 0.04em;
-     display: flex;
+     display: block;
      width: 100%;
      align-items: center;
 
@@ -745,19 +747,19 @@
      display: inline-flex;
      align-items: center;
      justify-content: center;
-     color: transparent;
+     fill: transparent;
      margin-right: 8px;
      width: 16px;
      height: 16px;
      border-radius: 2px;
      border: 1px solid var(--navyblue-modal, rgba(46, 47, 66, 0.40));
-     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
 
  input[type="checkbox"]:checked+.agrement-checkbox {
      background-color: #404BBF;
-     border-color: #404BBF;
-     color: #F4F4FD;
+     border: none;
+     fill: #F4F4FD;
 
  }
 
