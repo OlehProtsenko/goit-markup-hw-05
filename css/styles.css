@@ -703,10 +703,6 @@
      color: var(--navyblue-modal, rgba(46, 47, 66, 0.40));
  }
 
- .modal-foorm-field-checkbox {
-     margin-bottom: 24px;
- }
-
  .modal-form-agrement {
      color: var(--lightslate, #8E8F99);
      font-size: 12px;
@@ -731,14 +727,10 @@
      transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
 
- input[type="checkbox"]:checked + .modal-form-agrement > .agrement-checkbox {
+ input[type="checkbox"]:checked+.modal-form-agrement>.agrement-checkbox {
      background-color: #404BBF;
      border: none;
      fill: #F4F4FD;
- }
-
- .agrement-checkbox-icon {
-     fill: currentColor;
  }
 
  .modal-form-link {
