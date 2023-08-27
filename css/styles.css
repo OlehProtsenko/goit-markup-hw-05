@@ -723,6 +723,9 @@
      align-items: center;
      justify-content: center;
      fill: transparent;
+     background-color: #404BBF;
+     border: none;
+     fill: #F4F4FD;
      margin-right: 8px;
      width: 16px;
      height: 16px;
@@ -732,9 +735,7 @@
  }
 
  input[type="checkbox"]:checked +.agrement-checkbox {
-     background-color: #404BBF;
-     border: none;
-     fill: #F4F4FD;
+    
  }
 
  .agrement-checkbox-icon {
