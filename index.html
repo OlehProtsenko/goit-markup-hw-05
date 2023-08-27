@@ -492,11 +492,11 @@
         <form class="modal-form" name="review_form">
           <div class="modai-form-field">
             <label class="modal-form-label" for="user-name">Name</label>
-            <div class="modal-form-field">
+            <div class="modai-form-field">
               <input
                 class="modal-form-input"
                 type="text"
-                name="user_name"
+                name="user-name"
                 id="user-name"
                 placeholder=""
               />
@@ -508,11 +508,11 @@
 
           <div class="modai-form-field">
             <label class="modal-form-label" for="user-phone">Phone</label>
-            <div>
+            <div class="modai-form-field">
               <input
                 class="modal-form-input"
                 type="tel"
-                name="user_name"
+                name="user-name"
                 id="user-phone"
                 placeholder=""
               />
@@ -524,11 +524,11 @@
 
           <div class="modai-form-field">
             <label class="modal-form-label" for="user-email">Email</label>
-            <div>
+            <div class="modai-form-field">
               <input
                 class="modal-form-input"
                 type="email"
-                name="user_name"
+                name="user-name"
                 id="user-email"
                 placeholder=""
               />
@@ -537,25 +537,18 @@
               </svg>
             </div>
           </div>
-          <div class="modal-foorm-field-coment">
-            <label class="modal-form-label" for="user_comment">Comment</label>
+          <div class="modal-form-field-coment">
+            <label class="modal-form-label" for="user-comment">Comment</label>
             <textarea
               class="modal-form-comment"
-              name="user_comment"
-              id="user_comment"
+              name="user-comment"
+              id="user-comment"
               rows="8"
               placeholder="Text input"
             ></textarea>
           </div>
           <div class="modal-foorm-field-checkbox">
-            <input
-              class="visually-hidden"
-              type="checkbox"
-              name="user_privacy"
-              value="true"
-              id="user_privacy"
-            />
-            <label class="modal-form-agrement" for="user_privacy">
+            <label class="modal-form-agrement" for="user-privacy">
               <span class="agrement-checkbox">
                 <svg class="agrement-checkbox-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-Vector-1"></use>
@@ -568,10 +561,16 @@
                   href=""
                   target="_blank"
                   rel="noopener noreferrer"
-                  >Privacy Policy</a
-                >
+                  >Privacy Policy</a>
               </span>
             </label>
+            <input
+              class="visually-hidden"
+              type="checkbox"
+              name="user-privacy"
+              value="true"
+              id="user-privacy"
+            />
           </div>
           <div class="modal-foorm-field-button">
             <button class="modal-form-button button" type="submit" disabled>

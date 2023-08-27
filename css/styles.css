@@ -644,7 +644,7 @@
      margin-bottom: 8px;
  }
 
- .modal-foorm-field-coment {
+ .modal-form-field-coment {
      position: relative;
      margin-bottom: 16px;
  }
@@ -731,7 +731,7 @@
      transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
 
- input[type="checkbox"]:checked+.agrement-checkbox {
+ input[type="checkbox"] :checked+.agrement-checkbox {
      background-color: #404BBF;
      border: none;
      fill: #F4F4FD;
