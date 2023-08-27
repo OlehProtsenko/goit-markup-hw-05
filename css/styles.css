@@ -547,7 +547,7 @@
  .footer-form-input {
      width: 264px;
      height: 40px;
-     
+
      color: #FFFFFF;
      outline: transparent;
      background-color: transparent;
@@ -561,12 +561,13 @@
      letter-spacing: 0.04em;
      padding: 8px 16px;
  }
+
  .footer-form-input::placeholder {
-    color: var(--white, #FFF);
-}
+     color: var(--white, #FFF);
+ }
 
  .footer-form-input:focus {
-     border-color: 1px solid #4D5AE5;
+     border: 1px solid #4D5AE5;
  }
 
 
@@ -576,7 +577,7 @@
      padding: 8px 24px;
      justify-content: center;
      align-items: center;
-     max-width: 165px;
+     min-width: 165px;
      height: auto;
  }
 
@@ -676,11 +677,18 @@
      margin-bottom: 8px;
  }
 
+ .modal-foorm-field-coment {
+     position: relative;
+     margin-bottom: 16px;
+ }
+
+
  .modal-form-input {
      width: 100%;
+     height: 40px;
      outline: transparent;
      padding: 8px 16px;
-     padding-left: 34px;
+     padding-left: 38px;
      border-radius: 4px;
      border: 1px solid var(--navyblue-modal, rgba(46, 47, 66, 0.40));
      transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -698,15 +706,14 @@
      top: 50%;
      transform: translateY(-50%);
      left: 16px;
-     fill: none;
-     stroke: #2E2F42;
+     fill: #2E2F42;
      pointer-events: none;
-     transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
+     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
  }
 
  .modal-form-input:focus+.modal-form-icon {
-     stroke: #4D5AE5;
+     fill: #4D5AE5;
  }
 
  .modal-form-comment {
@@ -720,15 +727,20 @@
      font-weight: 400;
      line-height: 1.17;
      letter-spacing: 0.04em;
-     margin-bottom: 16px;
+     color: rgba(46, 47, 66, 0.4);
      outline: transparent;
-     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-         color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+     background-color: transparent;
+     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
  }
 
 
  .modal-form-comment ::placeholder {
      color: var(--navyblue-modal, rgba(46, 47, 66, 0.40));
+ }
+
+ .modal-foorm-field-checkbox {
+     margin-bottom: 24px;
  }
 
  .modal-form-agrement {
