@@ -264,13 +264,11 @@
  .benefits-section {
     padding-top: 120px;
     padding-bottom: 120px;
-    
  }
  .benefits-list {
     display: flex;
     gap: 24px;
 }
-
  .benefits-wraper {
      display: flex;
      align-items: center;
